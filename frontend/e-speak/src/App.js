@@ -1,18 +1,13 @@
 import "./App.css";
-import { Link } from "react-router-dom";
+import Nav from "./component/Nav";
 
 function App() {
   return (
-    <div className="nav_container">
-      <div className="logo_container">
-        <h4>e-speak</h4>
-      </div>
-      <div className="links_container">
-        <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Courses</li>
-        </ul>
+    <div className="App">
+      <Nav />
+      <div className="home_body">
+        <h1>Let's learn foreign language</h1>
+        <button>Get started</button>
       </div>
     </div>
   );
