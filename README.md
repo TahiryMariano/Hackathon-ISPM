@@ -26,7 +26,7 @@ npm run start
  - Installation:
 ```bash
 #change the directory to contact-manager
-cd frontend
+cd frontend/e-speak
 
 #install all the dependencies
 npm install 
