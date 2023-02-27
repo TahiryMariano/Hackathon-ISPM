@@ -81,6 +81,55 @@
 }
 
 .login_formulaire{
+  height: 92vh;
+  width: 100%;
   position: absolute;
+  display: flex;
+  justify-content: center;
   top: 50px;
+  background: linear-gradient(rgb(0,0,0,0.4),rgb(235, 165, 59)),url('./image/2015-11-int-mode-apprentissage.jpg') center/cover no-repeat;
+
 }
+
+.login_formulaire fieldset{
+  height: 300px;
+  width: 400px;
+  border: 3px #000 solid;
+  border-radius: 10px;
+  position: relative;
+  top: 17%;
+}
+
+.login_formulaire fieldset legend{
+  font-size: 25px;
+  font-family: segoe print;
+  margin-left: 15px;
+}
+
+.login_formulaire fieldset label{
+  font-size: 20px;
+  font-family:segoe print;
+  font-weight: bolder;
+  margin-left: 15px;
+}
+
+.login_formulaire fieldset input{
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff81;
+}
+
+.login_formulaire fieldset button{
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  left: 40%;
+  border:none;
+  border-radius: 5px;
+  color: #ffa797;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
