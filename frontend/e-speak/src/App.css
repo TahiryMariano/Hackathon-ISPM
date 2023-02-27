@@ -1,9 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.nav_container{
+
+.nav_container {
   height: 50px;
   width: 100%;
   background-color: rgb(223, 196, 196);
@@ -12,23 +13,25 @@
   box-shadow: 5px 0px 0px black;
 }
 
-.logo_container h4{
+.logo_container h4 {
   font-size: 25px;
-  margin-left: 50px ;
+  margin-left: 50px;
   margin-top: 4px;
   font-family: segoe print;
   font-weight: bolder;
 }
-.links_container{
+
+.links_container {
   position: absolute;
   right: 50px;
 }
-.links_container ul{
+
+.links_container ul {
   display: flex;
   position: relative;
 }
 
-.links_container ul li{
+.links_container ul li {
   list-style: none;
   margin-top: 1px;
   padding: 5px 50px;
@@ -38,12 +41,12 @@
   transition: .5s;
 }
 
-.links_container ul li:hover{
+.links_container ul li:hover {
   background-color: #ffffff71;
   letter-spacing: .3px;
 }
 
-.home_body{
+.home_body {
   position: absolute;
   top: 50px;
   height: 91vh;
@@ -52,15 +55,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgb(0,0,0,0.4),rgb(235, 165, 59)),url('./image/2015-11-int-mode-apprentissage.jpg') center/cover no-repeat;
+  background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(235, 165, 59)), url('./image/2015-11-int-mode-apprentissage.jpg') center/cover no-repeat;
 }
 
-.home_body h1{
+.home_body h1 {
   font-size: 50px;
   font-family: segoe print;
 }
 
-.home_body button{
+.home_body button {
   margin-top: 20px;
   height: 50px;
   width: 150px;
@@ -69,18 +72,18 @@
   background-color: #ffffffcb;
   font-size: 20px;
   font-weight: bolder;
-  font-style:italic;
+  font-style: italic;
   color: #ffa797;
   transition: .5s;
 }
 
-.home_body button:hover{
+.home_body button:hover {
   letter-spacing: .3px;
   transform: translateY(-5px);
   background-color: #fff;
 }
 
-.login_formulaire{
+.login_formulaire {
   position: absolute;
   top: 50px;
 }

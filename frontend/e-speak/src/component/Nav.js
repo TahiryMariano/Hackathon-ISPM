@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function Nav() {
   return (
     <div className="nav_container">
@@ -6,8 +7,12 @@ function Nav() {
       </div>
       <div className="links_container">
         <ul>
-          <li>Home</li>
-          <li>About us</li>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/about-us">
+            <li >About us</li>
+          </Link>
           <li>Courses</li>
         </ul>
       </div>
