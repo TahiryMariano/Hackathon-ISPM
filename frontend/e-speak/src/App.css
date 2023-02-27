@@ -79,3 +79,8 @@
   transform: translateY(-5px);
   background-color: #fff;
 }
+
+.login_formulaire{
+  position: absolute;
+  top: 50px;
+}
