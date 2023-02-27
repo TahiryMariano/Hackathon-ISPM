@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav_container {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(223, 196, 196);
+  display: flex;
+  position: fixed;
+  box-shadow: 5px 0px 0px black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo_container h4 {
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 4px;
+  font-family: segoe print;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.links_container {
+  position: absolute;
+  right: 50px;
+}
+
+.links_container ul {
+  display: flex;
+  position: relative;
+}
+
+.links_container ul li {
+  list-style: none;
+  margin-top: 1px;
+  padding: 5px 50px;
+  font-size: 20px;
+  font-family: segoe print;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.links_container ul li:hover {
+  background-color: #ffffff71;
+  letter-spacing: .3px;
+}
+
+.home_body {
+  position: absolute;
+  top: 50px;
+  height: 91vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(235, 165, 59)), url('./image/2015-11-int-mode-apprentissage.jpg') center/cover no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+.home_body h1 {
+  font-size: 50px;
+  font-family: segoe print;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home_body button {
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 2px;
+  background-color: #ffffffcb;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  color: #ffa797;
+  transition: .5s;
+}
+
+.home_body button:hover {
+  letter-spacing: .3px;
+  transform: translateY(-5px);
+  background-color: #fff;
+}
+
+.login_formulaire {
+  position: absolute;
+  top: 50px;
 }
