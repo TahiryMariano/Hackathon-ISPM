@@ -30,10 +30,11 @@ class UserController {
 
     static newUser = async (req, res, next) => {
 
+
         //validation password
-        if (!validatePassword(data.password)) {
-            res.status(400).json({ message: "Password does not meet requirements" })
-        }
+        // if (!validatePassword(data.password)) {
+        //     res.status(400).json({ message: "Password does not meet requirements" })
+        // }
 
         try {
             const data = req.body
