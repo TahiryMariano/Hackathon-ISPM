@@ -1,9 +1,0 @@
-function Nav() {
-  return (
-    <div>
-      <p>bonjou</p>
-    </div>
-  );
-}
-
-export default Nav;
